@@ -41,6 +41,11 @@
     color: var(--orange);
     border: 2px solid var(--orange);
 }
+.nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
 .home-box{
     width: 100%;
     min-height: 30vh;
@@ -181,6 +186,8 @@
 .boxs-contact{
     display: flex;
     justify-content: center;
+    align-items: center;
+
     
 }
 hr{
@@ -198,7 +205,6 @@ hr{
 }
 .website-link{
     background-color: white;
-    width: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -263,7 +269,7 @@ hr{
         align-items: center;
     }
     .box-icon{
-        width: 80%;  
+        width: 100%;  
         margin: 5px;
     }
 

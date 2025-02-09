@@ -9,7 +9,7 @@ export default function Footercomponent() {
                         <div className="col-12">
                             <h2 className="fw-semibold mt-5 text-center">GET IN TOUCH</h2>
                             <div className="col-12 boxs-contact my-5">
-                                <div className="col-10 icons-contact flex-wrap d-flex justify-content-between">
+                                <div className="col-12 icons-contact flex-wrap d-flex justify-content-between ">
                                     <div className=" box-icon text-center">
                                         <i class='bx bx-current-location  p-2 ' style={{ fontSize: "3rem" }}></i>
                                         <p className="my-1">Lorem Ipsum is simply dummy text</p>
@@ -36,8 +36,8 @@ export default function Footercomponent() {
                                     </div>
                                 </div>
                             </div>
-                            <hr className="mt-5" />
-                            <div className="col-12 mt-5 text-center">
+                            <div className="col-12 mt-5 pt-3 text-center">
+                            <hr className="" />
                                 <p>© 2025 All Rights Reserved By Free Html Templates</p>
                             </div>
                         </div>

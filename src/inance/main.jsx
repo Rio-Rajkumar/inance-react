@@ -22,7 +22,7 @@ export default function Maincomponent() {
                             <div className="col-12 d-flex justify-content-lg-end">
                                 <div class="navbar-nav w-50">
                                     <ul className="list-inline m-0 d-flex flex-wrap justify-content-lg-between w-100">
-                                        <li className="col-12 col-lg-3 text-decoration-none" ><Link to={"/"} class="nav-link active" aria-current="page" href="#">Home</Link></li>
+                                        <li className="col-12 col-lg-3 text-decoration-none" ><Link to={"/"} class="nav-link" href="#">Home</Link></li>
                                         <li className="col-12 col-lg-3 text-decoration-none"><Link to={"about"} class="nav-link" href="#">About</Link></li>
                                         <li className="col-12 col-lg-3 text-decoration-none"><Link to={"services"} class="nav-link" href="#">Services</Link></li>
                                         <li className="col-12 col-lg-3 text-decoration-none"><Link to={"contact"} class="nav-link">Contact Us</Link></li>
