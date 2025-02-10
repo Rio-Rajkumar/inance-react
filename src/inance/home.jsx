@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"
 import Footercomponent from "./footer";
 
-export default function Home() {
+export default function Homecom() {
     return (
         <>
             <section className="home" >
