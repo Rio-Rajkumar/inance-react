@@ -6,13 +6,12 @@ import Contact from "./contact";
 import './style.css';
 import Homecom from "./home";
 
-
 export default function Maincomponent() {
     return (
         <>
             <BrowserRouter>
-                <header className="header" >
-                    <nav className="navbar navbar-expand-lg px-4 ">
+                <header className="header">
+                    <nav className="navbar navbar-expand-lg px-4">
                         <div className="container-fluid">
                             <h4 className="fw-bold text-white">INANCE</h4>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +21,10 @@ export default function Maincomponent() {
                                 <div className="col-12 d-flex justify-content-lg-end">
                                     <div className="navbar-nav w-50">
                                         <ul className="list-inline m-0 d-flex flex-wrap justify-content-lg-between w-100">
-                                            <li className="col-12 col-lg-3 text-decoration-none" ><Link to={"/"} className="nav-link active" >Home</Link></li>
-                                            <li className="col-12 col-lg-3 text-decoration-none"><Link to={"/about"} className="nav-link">About</Link></li>
-                                            <li className="col-12 col-lg-3 text-decoration-none"><Link to={"/services"} className="nav-link" >Services</Link></li>
-                                            <li className="col-12 col-lg-3 text-decoration-none"><Link to={"/contact"} className="nav-link">Contact Us</Link></li>
+                                            <li className="col-12 col-lg-3"><Link to="/" className="nav-link active">Home</Link></li>
+                                            <li className="col-12 col-lg-3"><Link to="/about" className="nav-link">About</Link></li>
+                                            <li className="col-12 col-lg-3"><Link to="/services" className="nav-link">Services</Link></li>
+                                            <li className="col-12 col-lg-3"><Link to="/contact" className="nav-link">Contact Us</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -34,16 +33,15 @@ export default function Maincomponent() {
                     </nav>
                 </header>
 
+                {/* Routes - Render Pages */}
                 <Routes>
                     <Route path="/" element={<Homecom />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
-                <Homecom/>
 
             </BrowserRouter>
-
         </>
-    )
+    );
 }
