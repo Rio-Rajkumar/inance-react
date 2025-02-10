@@ -9,7 +9,7 @@ import Homecom from "./home";
 export default function Maincomponent() {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename="/inance-react">
                 <header className="header">
                     <nav className="navbar navbar-expand-lg px-4">
                         <div className="container-fluid">
@@ -21,7 +21,7 @@ export default function Maincomponent() {
                                 <div className="col-12 d-flex justify-content-lg-end">
                                     <div className="navbar-nav w-50">
                                         <ul className="list-inline m-0 d-flex flex-wrap justify-content-lg-between w-100">
-                                            <li className="col-12 col-lg-3"><Link to="/" className="nav-link active">Home</Link></li>
+                                            <li className="col-12 col-lg-3"><Link to="/" className="nav-link">Home</Link></li>
                                             <li className="col-12 col-lg-3"><Link to="/about" className="nav-link">About</Link></li>
                                             <li className="col-12 col-lg-3"><Link to="/services" className="nav-link">Services</Link></li>
                                             <li className="col-12 col-lg-3"><Link to="/contact" className="nav-link">Contact Us</Link></li>
@@ -33,7 +33,6 @@ export default function Maincomponent() {
                     </nav>
                 </header>
 
-                {/* Routes - Render Pages */}
                 <Routes>
                     <Route path="/" element={<Homecom />} />
                     <Route path="/about" element={<About />} />
