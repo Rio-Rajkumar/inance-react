@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/inance-react/static/css/main.0fb36d5e.css",
-    "main.js": "/inance-react/static/js/main.0e78af04.js",
+    "main.js": "/inance-react/static/js/main.1c777fcd.js",
     "static/media/professional-img.png": "/inance-react/static/media/professional-img.a91b8801479698b89400.png",
     "static/media/slider-img.png": "/inance-react/static/media/slider-img.bdc14f3c5c12cd7347b9.png",
     "static/media/about-img.jpg": "/inance-react/static/media/about-img.3c097c27d55837d8017a.jpg",
@@ -11,10 +11,10 @@
     "static/media/s3.png": "/inance-react/static/media/s3.bf100eded89c021ed89b.png",
     "index.html": "/inance-react/index.html",
     "main.0fb36d5e.css.map": "/inance-react/static/css/main.0fb36d5e.css.map",
-    "main.0e78af04.js.map": "/inance-react/static/js/main.0e78af04.js.map"
+    "main.1c777fcd.js.map": "/inance-react/static/js/main.1c777fcd.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb36d5e.css",
-    "static/js/main.0e78af04.js"
+    "static/js/main.1c777fcd.js"
   ]
 }
